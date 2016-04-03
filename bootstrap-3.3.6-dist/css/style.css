@@ -14,5 +14,26 @@
 	margin-bottom: 0px;
 	background-color: white;
 
+}
 
+.navbar-default .navbar-brand {
+	color: #c0b283;
+
+}
+
+.navbar-default .navbar-nav>li>a .link{
+	color: #c0b283;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #c0b283;
+    background-color: #f4f4f4;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #c0b283;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	color: #373737;
 }
