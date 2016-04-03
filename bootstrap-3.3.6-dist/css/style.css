@@ -4,6 +4,35 @@
 	height: 600px;
 }
 
+.jumbotron h1{
+	margin-top: 175px;
+	text-shadow: 2px 2px 2px black;
+
+}
+
+.jumbotron h1,h2{
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	
+}
+
+hr {
+	text-shadow: 2px 2px 2px black;
+}
+
+.jumbotron button a{
+	color:white;
+
+}
+
+.btn-primary{
+	background-color: #c0b283;
+	border-color: #373737;
+}
+
+.btn-primary:hover{
+	background-color:#dcd0d0;
+}
 #me {
 	height: 250px;
 	width: 250px;
