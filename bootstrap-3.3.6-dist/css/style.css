@@ -123,5 +123,34 @@ hr {
 /*About Me*/
 
 .aboutme{
-	height: 
+	height: 500px;
+	padding-top: 50px;
+	background-color: #f4f4f4;
 }
+.aboutme {
+	font-family: 'Droid Sans', sans-serif;
+	color: #c0b283;
+	text-shadow: 1px black;
+}
+.aboutme h1{
+	padding-bottom: 10px;
+}
+
+#me{	
+	float: right;
+	
+}
+
+.about{
+	padding-bottom:40px;
+	font-size: 1.75em;
+}
+
+
+
+blockquote{ 
+	border-left: 5px solid #dcd0c0;
+	color:#373737;
+	font-size: 1.50em;
+
+ }
