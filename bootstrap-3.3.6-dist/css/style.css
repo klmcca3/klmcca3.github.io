@@ -111,6 +111,7 @@ hr {
 #me {
 	height: 250px;
 	width: 250px;
+	float: right;
 
 }
 
@@ -136,17 +137,11 @@ hr {
 	padding-bottom: 10px;
 }
 
-#me{	
-	float: right;
-	
-}
 
 .about{
 	padding-bottom:40px;
 	font-size: 1.75em;
 }
-
-
 
 blockquote{ 
 	border-left: 5px solid #dcd0c0;
@@ -154,3 +149,22 @@ blockquote{
 	font-size: 1.50em;
 
  }
+
+/*End of About Me */
+
+
+/*Portfolio Showcase*/
+
+.portfolio{
+	height: auto;
+
+}
+
+
+
+/*Contact*/
+
+.contact {
+	height: 200px;
+	background-color: #f4f4f4;
+}
