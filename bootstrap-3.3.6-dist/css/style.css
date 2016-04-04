@@ -1,19 +1,64 @@
+/* Navigation */
+
+.navbar-default
+.navbar-toggle {
+    border-color: #373737;
+}
+.navbar {
+	margin-bottom: 0px;
+	background-color: white;
+}
+
+.navbar-default .navbar-toggle:focus, 
+.navbar-default .navbar-toggle:hover {
+    background-color: #dcd0c0;
+}
+.navbar-default .navbar-brand {
+	color: #c0b283;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #373737;
+}
+
+.navbar-default,
+.navbar-nav>li>a,
+.link {
+	color: #c0b283;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #c0b283;
+    background-color: #f4f4f4;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #c0b283;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+	color: #373737;
+}
+
+/* Jumbotron and Content */
 .jumbotron {
 	background:url("../img/jumbotron.jpg");
 	background-size: cover;
 	height: 600px;
 }
 
-.jumbotron h1{
+#home h1 {
 	margin-top: 175px;
-	text-shadow: 2px 2px 2px black;
-
-}
-
-.jumbotron h1,h2{
 	color: white;
 	text-shadow: 2px 2px 2px black;
-	
+}
+
+#home h2 {
+	color: white;
+	text-shadow: 2px 2px 2px black;
 }
 
 hr {
@@ -24,45 +69,59 @@ hr {
 	color:white;
 
 }
-
 .btn-primary{
 	background-color: #c0b283;
 	border-color: #373737;
 }
 
-.btn-primary:hover{
-	background-color:#dcd0d0;
+.btn-primary:hover,
+.jumbotron a:hover{
+	background-color:#736843;
+	border-color: #373737;
 }
+
+.btn-primary.active,
+.btn-primary:active,
+.open>.dropdown-toggle.btn-primary {
+	background-color:#736843;
+	border-color:#373737;
+}
+
+.btn-primary.focus, 
+.btn-primary:focus {
+	background-color:#736843;
+	
+} 
+
+.btn-primary.active.focus, 
+.btn-primary.active:focus,
+.btn-primary.active:hover, 
+.btn-primary:active.focus, 
+.btn-primary:active:focus,
+.btn-primary:active:hover, 
+.open>.dropdown-toggle.btn-primary.focus, 
+.open>.dropdown-toggle.btn-primary:focus,
+.open>.dropdown-toggle.btn-primary:hover {
+	background-color: #736843;
+	color:#373737;
+	border-color: #373737;
+}
+
+/* General */ 
 #me {
 	height: 250px;
 	width: 250px;
 
 }
 
-.navbar {
-	margin-bottom: 0px;
-	background-color: white;
+.center{
+	text-align:center;
+	margin:auto;
+	
+	}
 
-}
+/*About Me*/
 
-.navbar-default .navbar-brand {
-	color: #c0b283;
-
-}
-
-.navbar-default .navbar-nav>li>a .link{
-	color: #c0b283;
-}
-
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    color: #c0b283;
-    background-color: #f4f4f4;
-}
-
-.navbar-default .navbar-nav>li>a{
-	color: #c0b283;
-}
-
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
-	color: #373737;
+.aboutme{
+	height: 
 }
