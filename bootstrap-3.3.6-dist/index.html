@@ -56,7 +56,7 @@
        
    <div class="jumbotron center">
     <div class="container" id="home">
-      
+  ,    
     <h1>Keith McCarthy</h1>
     <h2>Web Developer</h2>
       <hr>
@@ -68,6 +68,7 @@
       <button type="button" class="btn btn-primary btn-lg"><i class="fa fa-github"></i><a href="https://github.com/klmcca3" target="_blank"> GitHub</a></button>
       
       <button type="button" class="btn btn-primary btn-lg"><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/keith-mccarthy-52419860" target="_blank"> LinkedIn</a></button>
+
     </div> 
     <!--End Buttons -->
    
@@ -82,19 +83,15 @@
 <!-- About me -->
 <div class="aboutme" id="aboutme">
   <div class="container">
-  
-   
-  <!--My Picture -->
-    <img src="img\keith.jpg" class="img-circle" id="me">
-    
-    <h1 class="center"><strong>About Keith</strong></h1>
-    
-    <p class="about"> I'm a self taught web developer from Louisville, KY. I earned two Bachelor of Science Degrees from The University of Kentucky. I have a passion for technology, traveling, and self improvement. My ultimate goal is to put myself in the position to help others.
-
-    My competencies include: HTML 5, CSS 3, JQuery, and Bootstrap.
-
-   
-    </p>  
+    <div class="row">
+       <div class="col-md-8">
+        <h1 class="center"><strong>About Keith</strong></h1>
+        <p class="about"> I'm a self taught web developer from Louisville, KY. I earned two Bachelor of Science Degrees from The University of Kentucky. I have a passion for technology, traveling, and self improvement. My ultimate goal is to put myself in the position to help others. My competencies include: HTML 5, CSS 3, JQuery, and Bootstrap.   
+        </p>
+      </div> <!-- /.col-md-8 -->
+       <!--My Picture -->
+     
+    </div><!-- /.row --> 
 
 
 
@@ -119,8 +116,8 @@
    <div class="portfolio" id="portfolio">
     <div class="container">
     
-    <h1 class="center">Portfolio of Awesomeness</h1>
-    <h2 class="center">Feel Free to Browse Through Some Of My Recent Work</h2>
+    <h1 class="center"><strong>Portfolio of Awesomeness</strong></h1>
+    <h3 class="center">Feel Free to Browse Through Some Of My Recent Work</h3>
 
     <!-- Six Square Portfolio Layout -->
 
@@ -131,7 +128,7 @@
         <div class="col-md-4">
           <div class="thumbnail">
             <img src="img/tribute.png" alt="Tribute Page" height="300" width"300">
-            <div class="caption">
+            <div class="caption center">
               <h3>Tribute Page to Dr. Eric Thomas</h3>
 
               <p> This is the first project in the Free Code Camp coursework. This project was built using HTML5, CSS3, and the Bootstrap 3 framework.</p>
@@ -147,7 +144,7 @@
           <div class="thumbnail">
           <img src="http://dummyimage.com/300x300/dcd0c0/373737.jpg&text=Project+Coming+Soon!" alt="Coming Soon" height="300" width"300">
       
-             <div class="caption">
+             <div class="caption center">
               <h3>Project Coming Soon!</h3>
              </div> <!--caption-->
           </div> <!--thumbnail--> 
@@ -157,7 +154,7 @@
           <div class="thumbnail">
           <img src="http://dummyimage.com/300x300/dcd0c0/373737.jpg&text=Project+Coming+Soon!" alt="Coming Soon" height="300" width"300">
       
-             <div class="caption">
+             <div class="caption center">
               <h3>Project Coming Soon!</h3>
             </div> <!--caption-->
           </div> <!--thumbnail--> 
@@ -174,7 +171,7 @@
           <div class="thumbnail">
           <img src="http://dummyimage.com/300x300/dcd0c0/373737.jpg&text=Project+Coming+Soon!" alt="Coming Soon" height="300" width"300">
       
-             <div class="caption">
+             <div class="caption center">
               <h3>Project Coming Soon!</h3>
             </div> <!--caption-->
           </div> <!--thumbnail--> 
@@ -184,7 +181,7 @@
           <div class="thumbnail">
           <img src="http://dummyimage.com/300x300/dcd0c0/373737.jpg&text=Project+Coming+Soon!" alt="Coming Soon" height="300" width"300">
       
-             <div class="caption">
+             <div class="caption center">
               <h3>Project Coming Soon!</h3>
             </div> <!--caption-->
           </div> <!--thumbnail--> 
@@ -194,7 +191,7 @@
           <div class="thumbnail">
           <img src="http://dummyimage.com/300x300/dcd0c0/373737.jpg&text=Project+Coming+Soon!" alt="Coming Soon" height="300" width"300">
       
-             <div class="caption">
+             <div class="caption center">
               <h3>Project Coming Soon!</h3>
              </div> <!--caption-->
            </div> <!--thumbnail--> 
@@ -218,20 +215,22 @@
     
 
     <!--Email Address-->
-    <h2>Connect with me <a href="mailto:klmcca3@gmail.com">here!</a></h2>
+    <h2 class="center">Connect with me <a href="mailto:klmcca3@gmail.com">here!</a></h2>
    
     <!-- Social Media-->
     <!-- Buttons -->
-    <button type="button"><i class="fa fa-twitter"></i><a href="https://twitter.com/ComeUpKeith" target="_blank"> Twitter</a></button>
-    
-    <button type="button"><i class="fa fa-github"></i><a href="https://github.com/klmcca3" target="_blank"> GitHub</a></button>
-    
-    <button type="button"><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/keith-mccarthy-52419860" target="_blank"> LinkedIn</a></button>
-    <!--End Buttons -->
+      <div class="center">
+      
+      <button type="button" class="btn btn-primary btn-lg"><i class="fa fa-twitter"></i><a href="https://twitter.com/ComeUpKeith" target="_blank"> Twitter</a></button>
+      
+      <button type="button" class="btn btn-primary btn-lg"><i class="fa fa-github"></i><a href="https://github.com/klmcca3" target="_blank"> GitHub</a></button>
+      
+      <button type="button" class="btn btn-primary btn-lg"><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/keith-mccarthy-52419860" target="_blank"> LinkedIn</a></button>
+      <!--End Buttons -->
 
-  
-   </div>
-</div>
+      </div> <!-- center -->
+   </div> <!-- container -->
+</div> <!-- contact-->
 
   <!--Footer -->
     <!-- White -->
