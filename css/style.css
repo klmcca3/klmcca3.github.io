@@ -116,8 +116,7 @@ a:hover{
 #me {
 	height: 250px;
 	width: 250px;
-	float: right;
-
+	
 }
 
 .center{
@@ -196,11 +195,20 @@ blockquote{
 
 @media (max-width:991px) { 
  
-.aboutme img{
-align-items: center;
 
+
+.aboutme img {
+	align-content: flex-start;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 
 }
- 
+
+.about {
+	display: block;
+}
+
+
 
 }
