@@ -66,6 +66,10 @@ hr {
 }
 
 
+.img{
+  height: 300px !important;
+  width: 300px;
+}
 
 /*Buttons*/
 
@@ -116,7 +120,6 @@ a:hover{
 #me {
 	height: 250px;
 	width: 250px;
-
 }
 
 .center{
@@ -182,8 +185,9 @@ blockquote{
 /*Contact*/
 
 .contact {
-	height: 200px;
+	height: auto;
 	background-color: #f4f4f4;
+  padding: 40px 0;
 }
 
 .contact h2 {
@@ -191,6 +195,16 @@ blockquote{
 	padding: 20px 0 10px 0;
 }
 
+.contact h1{
+  color: #c0b283;
+}
+
+.buttoms{
+margin: auto 0;
+}
+ .form {
+   padding-top: 40px;
+ }
 /*Media Queries*/
 
 @media (max-width:991px) {

@@ -41,12 +41,12 @@
 
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="navbar">
+          <div class="collapse navbar-collapse" id="navbar home">
             <ul class="nav navbar-nav navbar-right link">
-              <li><a href="index.html">Home<span class="sr-only"></span></a></li>
-              <li><a href="#aboutme">About</a></li>
-              <li><a href="#portfolio">Portfolio</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="#home" class="smooth-scroll">Home<span class="sr-only"></span></a></li>
+              <li><a href="#aboutme" class="smooth-scroll">About</a></li>
+              <li><a href="#portfolio" class="smooth-scroll">Portfolio</a></li>
+              <li><a href="#contact" class="smooth-scroll">Contact</a></li>
             </ul>
         </div> <!---Closing-collapse navbar-collapse-->
       </div> <!--Closing container-fluid-->
@@ -56,7 +56,7 @@
 
    <div class="jumbotron center">
     <div class="container" id="home">
-  ,
+
     <h1>Keith McCarthy</h1>
     <h2>Web Developer</h2>
       <hr>
@@ -71,13 +71,8 @@
 
     </div>
     <!--End Buttons -->
-
-<!--Jumbotron with Social Media links -->
-    <!--Twitter link with icon -->
-    <!--Git Hub link with icon -->
-    <!--LinkedIn link with icon -->
-     </div>
-    </div>
+  </div><!--Container -->
+</div><!--Jumbotron -->
 
 
 <!-- About me -->
@@ -87,7 +82,7 @@
 
       <div class="col-xs-12 hidden-md hidden-lg center-block">
         <img src="img/keith.jpg" class="img-circle" id="me">
-      </div><!-- /.row -->
+      </div><!-- .row -->
 
       <div class="col-xs-12 hidden-md hidden-lg">
        <h1 class="center"><strong>About Keith</strong></h1>
@@ -104,7 +99,7 @@
         </p>
       </div> <!-- /.col-md-8 -->
        <!--My Picture -->
-        <div class="col-md-4 hidden-xs hidden-sm">
+        <div class="col-md-4 hidden-xs hidden-sm center-block">
           <img src="img\keith.jpg" class="img-circle" id="me">
           </div> <!-- /.col-md-4 -->
         </div><!-- /.row -->
@@ -121,13 +116,6 @@
   </div><!-- container-->
 </div><!--about me -->
 
-
-
-     <!-- Picture of me-circle, Right aligned-->
-      <!--BIO, left aligned -->
-      <!--Background, possibly textured background -->
-
-
   <!--Portfolio -->
    <div class="portfolio" id="portfolio">
     <div class="container">
@@ -136,92 +124,97 @@
     <h3 class="center">Feel Free to Browse Through Some Of My Recent Work</h3>
 
     <!-- Six Square Portfolio Layout -->
-
-
     <!--Row1-->
-      <div class="row">
+    <div class="row">
 
-        <div class="col-md-4">
-          <div class="thumbnail">
+      <div class="col-md-4">
+        <div class="thumbnail">
 
-          <a href="http://klmcca3-tributepage.bitballoon.com" target="_blank">
-          <img src="img/tribute.png" alt="Tribute Page" height="300" width"300">
+        <a href="http://klmcca3-tributepage.bitballoon.com" target="_blank">
+        <img src="img/tribute.png" alt="Tribute Page" height="300" width"300" class="img-responsive img">
+        </a>
+
+          <div class="caption center">
+            <h3>Tribute Page to Dr. Eric Thomas</h3>
+
+            <p> This is the first project in the Free Code Camp coursework. This project was built using HTML5, CSS3, and the Bootstrap 3 framework.</p>
+
+
+
+
+          </div> <!--caption-->
+        </div> <!--thumbnail-->
+      </div> <!--col-md-4-->
+
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a href="https://geekwiseb2.github.io/pet-store-klmcca3/" target="_blank">
+        <img src="img/petstore.png" alt="pet store" height="300" width"300" class="img-responsive img">
           </a>
 
-            <div class="caption center">
-              <h3>Tribute Page to Dr. Eric Thomas</h3>
+           <div class="caption center">
+             <h3>PSD to HTML/CSS Project I</h3>
+            <p>This is the first project in the Mobile First coursework offered by GeekWise in Fresno, CA. This project was built using HTML5, CSS3, and the Bootstrap 3 framework.</p>
+           </div> <!--caption-->
+        </div> <!--thumbnail-->
+      </div> <!--col-md-4-->
 
-              <p> This is the first project in the Free Code Camp coursework. This project was built using HTML5, CSS3, and the Bootstrap 3 framework.</p>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a href="https://geekwiseb2.github.io/restaurante-klmcca3/" target="_blank">
+          <img src="img/restaurante.png" alt="restaurante" height="300" width"300" class="img-responsive img">
+          </a>
+             <div class="caption center">
+               <h3>PSD to HTML/CSS Project II</h3>
+              <p>This is the second project in the Mobile First coursework offered by GeekWise in Fresno, CA. This project was built using HTML5, CSS3, and the Bootstrap 3 framework.</p>
+          </div> <!--caption-->
+        </div> <!--thumbnail-->
+      </div> <!--col-md-4-->
+
+    </div> <!--row -->
 
 
+    <!--Row2-->
+    <div class="row">
 
 
-            </div> <!--caption-->
-          </div> <!--thumbnail-->
-        </div> <!--col-md-4-->
-
-        <div class="col-md-4">
-          <div class="thumbnail">
+      <div class="col-md-4">
+        <div class="thumbnail">
           <img src="http://dummyimage.com/300x200/dcd0c0/373737.jpg&text=Project+Coming+Soon!" alt="Coming Soon">
 
              <div class="caption center">
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus suscipit, accusantium dolorem iste. Placeat alias iste minus vero quod, soluta deleniti debitis eum officia, tenetur dolorum dolore harum error numquam eius cumque consequatur expedita quos laboriosam nulla. Impedit cum, error iusto reprehenderit! Quam dolores odit accusamus veritatis vero, eaque aspernatur?</p>
-             </div> <!--caption-->
-          </div> <!--thumbnail-->
-        </div> <!--col-md-4-->
+          </div> <!--caption-->
+        </div> <!--thumbnail-->
+      </div> <!--col-md-4-->
 
-        <div class="col-md-4">
-          <div class="thumbnail">
-            <img src="http://dummyimage.com/300x200/dcd0c0/373737.jpg&text=Project+Coming+Soon!" alt="Coming Soon">
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img src="http://dummyimage.com/300x200/dcd0c0/373737.jpg&text=Project+Coming+Soon!" alt="Coming Soon">
 
-               <div class="caption center">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus suscipit, accusantium dolorem iste. Placeat alias iste minus vero quod, soluta deleniti debitis eum officia, tenetur dolorum dolore harum error numquam eius cumque consequatur expedita quos laboriosam nulla. Impedit cum, error iusto reprehenderit! Quam dolores odit accusamus veritatis vero, eaque aspernatur?</p>
-            </div> <!--caption-->
-          </div> <!--thumbnail-->
-        </div> <!--col-md-4-->
+             <div class="caption center">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus suscipit, accusantium dolorem iste. Placeat alias iste minus vero quod, soluta deleniti debitis eum officia, tenetur dolorum dolore harum error numquam eius cumque consequatur expedita quos laboriosam nulla. Impedit cum, error iusto reprehenderit! Quam dolores odit accusamus veritatis vero, eaque aspernatur?</p>
+          </div> <!--caption-->
+        </div> <!--thumbnail-->
+      </div> <!--col-md-4-->
 
-      </div> <!--row -->
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img src="http://dummyimage.com/300x200/dcd0c0/373737.jpg&text=Project+Coming+Soon!" alt="Coming Soon">
 
-
-      <!--Row2-->
-      <div class="row">
-
-
-        <div class="col-md-4">
-          <div class="thumbnail">
-            <img src="http://dummyimage.com/300x200/dcd0c0/373737.jpg&text=Project+Coming+Soon!" alt="Coming Soon">
-
-               <div class="caption center">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus suscipit, accusantium dolorem iste. Placeat alias iste minus vero quod, soluta deleniti debitis eum officia, tenetur dolorum dolore harum error numquam eius cumque consequatur expedita quos laboriosam nulla. Impedit cum, error iusto reprehenderit! Quam dolores odit accusamus veritatis vero, eaque aspernatur?</p>
-            </div> <!--caption-->
-          </div> <!--thumbnail-->
-        </div> <!--col-md-4-->
-
-        <div class="col-md-4">
-          <div class="thumbnail">
-            <img src="http://dummyimage.com/300x200/dcd0c0/373737.jpg&text=Project+Coming+Soon!" alt="Coming Soon">
-
-               <div class="caption center">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus suscipit, accusantium dolorem iste. Placeat alias iste minus vero quod, soluta deleniti debitis eum officia, tenetur dolorum dolore harum error numquam eius cumque consequatur expedita quos laboriosam nulla. Impedit cum, error iusto reprehenderit! Quam dolores odit accusamus veritatis vero, eaque aspernatur?</p>
-            </div> <!--caption-->
-          </div> <!--thumbnail-->
-        </div> <!--col-md-4-->
-
-        <div class="col-md-4">
-          <div class="thumbnail">
-            <img src="http://dummyimage.com/300x200/dcd0c0/373737.jpg&text=Project+Coming+Soon!" alt="Coming Soon">
-
-               <div class="caption center">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus suscipit, accusantium dolorem iste. Placeat alias iste minus vero quod, soluta deleniti debitis eum officia, tenetur dolorum dolore harum error numquam eius cumque consequatur expedita quos laboriosam nulla. Impedit cum, error iusto reprehenderit! Quam dolores odit accusamus veritatis vero, eaque aspernatur?</p>
-             </div> <!--caption-->
-           </div> <!--thumbnail-->
-        </div> <!--col-md-4-->
+             <div class="caption center">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus suscipit, accusantium dolorem iste. Placeat alias iste minus vero quod, soluta deleniti debitis eum officia, tenetur dolorum dolore harum error numquam eius cumque consequatur expedita quos laboriosam nulla. Impedit cum, error iusto reprehenderit! Quam dolores odit accusamus veritatis vero, eaque aspernatur?</p>
+           </div> <!--caption-->
+         </div> <!--thumbnail-->
+      </div> <!--col-md-4-->
 
 
 
-      </div> <!--row -->
+    </div> <!--row -->
     </div> <!-- container -->
-  </div><!-- portfolio -->
+    </div><!-- portfolio -->
+
+
 
 
 <!--Contact -->
@@ -229,31 +222,71 @@
   <div class="container">
 
 
-    <!--Email Address-->
-    <h2 class="center">Connect with me <a href="mailto:klmcca3@gmail.com">here!</a></h2>
+<h1 class="center-block center">Contact Me</h1>
+    <div class="row form">
 
-    <!-- Social Media-->
-    <!-- Buttons -->
-      <div class="center">
 
-      <button type="button" class="btn btn-primary btn-lg"><i class="fa fa-twitter"></i><a href="https://twitter.com/ComeUpKeith" target="_blank"> Twitter</a></button>
+<div class="col-md-6 ">
 
-      <button type="button" class="btn btn-primary btn-lg"><i class="fa fa-github"></i><a href="https://github.com/klmcca3" target="_blank"> GitHub</a></button>
+  <!-- Do not change the code! -->
+  <a id="foxyform_embed_link_778144" href="http://www.foxyform.com/">foxyform</a>
+  <script type="text/javascript">
+  (function(d, t){
+     var g = d.createElement(t),
+         s = d.getElementsByTagName(t)[0];
+     g.src = "http://www.foxyform.com/js.php?id=778144&sec_hash=c5dd5846006&width=350px";
+     s.parentNode.insertBefore(g, s);
+  }(document, "script"));
+  </script>
+  <!-- Do not change the code! -->
 
-      <button type="button" class="btn btn-primary btn-lg"><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/keith-mccarthy-52419860" target="_blank"> LinkedIn</a></button>
-      <!--End Buttons -->
 
-      </div> <!-- center -->
+</div>
+      <!-- Social Media-->
+      <!-- Buttons -->
+       <div class="col-md-6">
+        <div class="center buttons">
+
+
+        <button type="button" class="btn btn-primary btn-lg"><i class="fa fa-twitter"></i><a href="https://twitter.com/ComeUpKeith" target="_blank"> Twitter</a></button>
+
+        <button type="button" class="btn btn-primary btn-lg"><i class="fa fa-github"></i><a href="https://github.com/klmcca3" target="_blank"> GitHub</a></button>
+
+        <button type="button" class="btn btn-primary btn-lg"><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/keith-mccarthy-52419860" target="_blank"> LinkedIn</a></button>
+        <!--End Buttons -->
+      </div> <!--  -->
+        </div> <!-- center -->
+      </div> <!--ROW -- >
    </div> <!-- container -->
 </div> <!-- contact-->
 
-  <!--Footer -->
-    <!-- White -->
-    <!-- Navigation-->
+
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+<!-- SMOOTH SCROLL-->
+    <script>
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+          if( $(this).attr("class")=="smooth-scroll") {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                    if (target.length) {
+                            $('html,body').animate({
+                                    scrollTop: target.offset().top
+                            }, 1000);
+                            return false;
+                    }
+                }
+            }
+        });
+    });
+  </script>
+  <!-- END SMOOTH SCROLL-->
   </body>
 </html>
